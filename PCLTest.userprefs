@@ -1,31 +1,29 @@
 ﻿<Properties StartupConfiguration="{C62A77DF-6B2B-4784-8AA9-3B3A1A04B4EA}|Default">
-  <MonoDevelop.Ide.ItemProperties.PCLTest.Droid PreferredExecutionTarget="Android.AndroidAPI23" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="PCLTest/MapContentView.xaml.cs">
+  <MonoDevelop.Ide.ItemProperties.PCLTest.Droid PreferredExecutionTarget="Android.612435743" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="PCLTest.Shared/MapContentPage.xaml">
     <Files>
       <File FileName="PCLTest.Shared/MapContentView.xaml" Line="6" Column="87" />
-      <File FileName="PCLTest.Shared/MapContentView.xaml.cs" Line="30" Column="2" />
-      <File FileName="PCLTest.Shared/MapContentPage.xaml.cs" Line="34" Column="1" />
-      <File FileName="PCLTest.Shared/MapContentPage.xaml" Line="5" Column="2" />
+      <File FileName="PCLTest.Shared/MapContentView.xaml.cs" Line="14" Column="24" />
+      <File FileName="PCLTest.Shared/MapContentPage.xaml.cs" Line="74" Column="62" />
+      <File FileName="PCLTest.Shared/MapContentPage.xaml" Line="12" Column="25" />
       <File FileName="PCLTest.Core/IMapContentPage.cs" Line="13" Column="1" />
-      <File FileName="Droid/MainActivity.cs" Line="24" Column="26" />
+      <File FileName="Droid/MainActivity.cs" Line="31" Column="4" />
       <File FileName="iOS/AppDelegate.cs" Line="31" Column="3" />
-      <File FileName="PCLTest/PCLTestPage.xaml.cs" Line="23" Column="57" />
-      <File FileName="PCLTest/PCLTestPage.xaml" Line="4" Column="44" />
-      <File FileName="PCLTest/MapContentView.xaml" Line="2" Column="139" />
-      <File FileName="PCLTest/MapContentView.xaml.cs" Line="13" Column="3" />
+      <File FileName="PCLTest/PCLTestPage.xaml.cs" Line="26" Column="79" />
+      <File FileName="PCLTest/PCLTestPage.xaml" Line="6" Column="35" />
+      <File FileName="PCLTest/MapPage.xaml" Line="5" Column="1" />
+      <File FileName="PCLTest/MapPage.xaml.cs" Line="24" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="PCLTest" expanded="True">
             <Node name="PCLTest" expanded="True">
-              <Node name="MapContentView.xaml" expanded="True">
-                <Node name="MapContentView.xaml.cs" selected="True" />
-              </Node>
+              <Node name="MapPage.xaml" expanded="True" />
               <Node name="PCLTestPage.xaml" expanded="True" />
             </Node>
             <Node name="PCLTest.Core" expanded="True" />
-            <Node name="PCLTest.Droid" expanded="True" />
+            <Node name="PCLTest.Droid" expanded="True" selected="True" />
             <Node name="PCLTest.iOS" expanded="True" />
             <Node name="PCLTest.Shared" expanded="True">
               <Node name="MapContentPage.xaml" expanded="True" />
@@ -39,7 +37,9 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.PCLTest.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.3267A6AD-D0B8-4909-9659-CE7F3AC5C206" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/john3922/Testing/PCLTest/PCLTest/MapPage.xaml.cs" relfile="PCLTest/MapPage.xaml.cs" line="18" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
