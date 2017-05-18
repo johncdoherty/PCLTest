@@ -1,0 +1,17 @@
+﻿<Properties StartupConfiguration="{C62A77DF-6B2B-4784-8AA9-3B3A1A04B4EA}|Default">
+  <MonoDevelop.Ide.ItemProperties.PCLTest.Droid PreferredExecutionTarget="Android.AndroidAPI23" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Droid/MainActivity.cs">
+    <Files>
+      <File FileName="PCLTest/PCLTestPage.xaml.cs" Line="20" Column="1" />
+      <File FileName="PCLTest.Shared/MyPage.xaml" Line="13" Column="15" />
+      <File FileName="Droid/MainActivity.cs" Line="32" Column="62" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.PCLTest.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.3267A6AD-D0B8-4909-9659-CE7F3AC5C206" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>
