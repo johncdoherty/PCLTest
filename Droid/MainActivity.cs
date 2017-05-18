@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 using Android.App;
 using Android.Content;
@@ -24,11 +24,11 @@ namespace PCLTest.Droid
 			base.OnCreate(bundle);
 
 			global::Xamarin.Forms.Forms.Init(this, bundle);
-			//FormsHelper.ForceLoadingAssemblyContainingType(typeof(MyPage));
-			//FormsHelper.ForceLoadingAssemblyContainingType(typeof(IMyPage));
-			IMyPage page;
 
-			FreshTinyIoC.FreshTinyIoCContainer.Current.Register<IMyPage, MyPage>();
+			//IMapContentPage test;
+			// Register the map page with the IOC
+			FreshTinyIoC.FreshTinyIoCContainer.Current.Register<IMapContentPage, MapContentPage>();
+			FreshTinyIoC.FreshTinyIoCContainer.Current.Register<IMapContentView, MapContentView>();
 
 			LoadApplication(new App());
 		}

@@ -1,4 +1,4 @@
-﻿// ------------------------------------------------------------------------------
+// ------------------------------------------------------------------------------
 //  Copyright © 2017 Esri. All rights reserved.
 //  Author: John Doherty
 // ------------------------------------------------------------------------------
@@ -20,8 +20,10 @@ namespace PCLTest.iOS
 		public override bool FinishedLaunching(UIApplication app, NSDictionary options)
 		{
 			global::Xamarin.Forms.Forms.Init();
-			IMyPage page;
-			FreshTinyIoC.FreshTinyIoCContainer.Current.Register<IMyPage, MyPage2>();
+			// IMapContentPage test;
+			// Register the map page with the IOC
+			FreshTinyIoC.FreshTinyIoCContainer.Current.Register<IMapContentPage, MapContentPage>();
+			FreshTinyIoC.FreshTinyIoCContainer.Current.Register<IMapContentView, MapContentView>();
 			LoadApplication(new App());
 
 			return base.FinishedLaunching(app, options);
